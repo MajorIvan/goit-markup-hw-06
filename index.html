@@ -17,9 +17,15 @@
             <a class="text-logo link" href="./index.html">Web<span class="header-logo">Studio</span></a>
             <nav class="header-nav">
                 <ul class="menu-list list">
-                    <li class="menu-item"><a class="menu-link link" href="./index.html">Studio</a></li>
-                    <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
-                    <li class="menu-item"><a class="menu-link link" href="">Contacts</a></li>
+                    <li class="menu-item">
+                        <a class="menu-link link current" href="./index.html">Studio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="">Contacts</a>
+                    </li>
                 </ul>
             </nav>
             <a class="header-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -30,7 +36,7 @@
         <section class="section hero">
             <div class="container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>   
-                <button class="order-btn" type="button">Order Service</button>
+                <button class="order-btn" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
         <section class="section merits">
@@ -96,48 +102,147 @@
                             <h3 class="sub-title">Mark Guerrero</h3>
                             <p class="regular-text">Product Designer</p>
                             <ul class="team-soc-list list">
-                                <li class="team-soc-item"><a href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://twitter.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://www.facebook.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://www.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://twitter.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>                                    
+                                <li class="team-soc-item">
+                                    <a href="https://www.facebook.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
                             </ul>
-                        </div></li>
+                        </div>
                     <li class="team-card">
                         <img src="./images/frontend_developer.jpg" alt="Frontend Developer photo" style="width: 100%; height: 260px;">
                         <div class="card-wrap">
                             <h3 class="sub-title">Tom Ford</h3>
                             <p class="regular-text">Frontend Developer</p>
                             <ul class="team-soc-list list">
-                                <li class="team-soc-item"><a href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://twitter.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://www.facebook.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://www.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://twitter.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.facebook.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
                             </ul>
-                        </div></li>
+                        </div>
+                    </li>
                     <li class="team-card">
                         <img src="./images/women_marketing.jpg" alt="Photo of women from Marketing" style="width: 100%; height: 260px;">
                         <div class="card-wrap">
                             <h3 class="sub-title">Camila Garcia</h3>
                             <p class="regular-text">Marketing</p>
                             <ul class="team-soc-list list">
-                                <li class="team-soc-item"><a href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://twitter.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://www.facebook.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://www.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://twitter.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.facebook.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
                             </ul>
-                        </div></li>
+                        </div>
+                    </li>
                     <li class="team-card">
                         <img src="./images/ui_designer.jpg" alt="User Interface Designer photo" style="width: 100%; height: 260px;">
                         <div class="card-wrap">
                             <h3 class="sub-title">Daniel Wilson</h3>
                             <p class="regular-text">UI Designer</p>
                             <ul class="team-soc-list list">
-                                <li class="team-soc-item"><a href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://twitter.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://www.facebook.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-                                <li class="team-soc-item"><a href="https://www.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link"><svg class="team-soc-icon" width="16" height="16"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://twitter.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.facebook.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-soc-item">
+                                    <a href="https://www.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank" class="team-soc-link link">
+                                        <svg class="team-soc-icon" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
                             </ul>
-                        </div></li>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -226,5 +331,15 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg class="modal-close-btn-icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
