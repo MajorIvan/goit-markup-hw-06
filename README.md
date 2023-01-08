@@ -1,2 +1,2 @@
-# goit-markup-hw-05
-GoIT FSON78 Homework 5
+# goit-markup-hw-06
+GoIT FSON78 Homework 6
