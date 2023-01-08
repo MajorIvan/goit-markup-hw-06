@@ -269,6 +269,7 @@ body {
 .team-card {
     width: 264px; 
     height: 428px;
+    overflow: hidden;
     background: #FFFFFF;
     box-shadow: 
         0px 1px 6px rgba(46, 47, 66, 0.08), 
